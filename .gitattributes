@@ -1,1 +1,9 @@
-"* linguist-language=PHP" 
+# Forcer PHP comme langage principal
+*.php linguist-detectable=true
+*.scss linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.html linguist-detectable=false
+
+# Forcer la détection PHP
+* linguist-language=PHP
